@@ -1,0 +1,12 @@
+.app__container {
+  width: 100%; /* Full width on smaller devices */
+  max-width: 70%; /* Maximum 70% width on larger devices */
+  margin: 0 auto; /* Center the div */
+}
+
+@media (max-width: 768px) {
+  .app__container {
+    max-width: 100%; /* Full width on smaller devices */
+    margin: 0 auto; /* Center the div */
+  }
+}

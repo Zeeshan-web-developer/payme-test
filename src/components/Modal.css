@@ -1,0 +1,28 @@
+.close__button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.close__button:hover {
+  color: #e74c3c; /* Change color on hover */
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .close__button {
+    font-size: 20px; /* Adjust button size for smaller screens */
+  }
+}
